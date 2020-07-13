@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cat /etc/os-release
+python /usr/src/app/app.py

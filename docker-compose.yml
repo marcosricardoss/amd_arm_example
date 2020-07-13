@@ -1,0 +1,9 @@
+version: '3'
+services:
+  docker-amd-arm:
+    build: .
+    image: marcosricardoss/docker-amd-arm
+    container_name: docker-amd-arm
+    command: bash -c "/usr/src/app/start"
+    volumes:
+      - ./:/usr/src/app
