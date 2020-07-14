@@ -1,4 +1,5 @@
-FROM raspbian/fpixel
+# FROM raspbian/fpixel
+FROM python:3.8
 
-USER root
+# USER root
 WORKDIR /usr/src/app
